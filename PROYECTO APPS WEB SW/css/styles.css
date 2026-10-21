@@ -1,0 +1,65 @@
+/* el estilo global centrado y limpio */
+body {
+    background-color: rgb(249, 254, 248);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+/* la barra de título verde */
+h1 {
+    background-color: rgb(59, 96, 21);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Tamaño del logo */
+img {
+    width: 120px;
+    vertical-align: middle;
+}
+
+/* Botón general */
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Formulario sencillo */
+form {
+    border: 2px solid rgb(128, 255, 0);
+    background-color: #2b3a4a;
+    color: white;
+    width: 280px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+/* Mensaje de gracias */
+#mensaje-exito {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Pie de página verde fijo al fondo */
+footer {
+    background-color: rgb(138, 163, 113);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Pie de pagina*/
+footer p {
+    margin: 3px 0;
+}

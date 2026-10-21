@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FácilChamba</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1>FácilChamba <img src="img/CaptuFacilChamba.png" alt="Logo"></h1>
+
+    <p><button id="btn-mostrar-ayuda">Ayuda</button></p>
+
+    <p>Somos FácilChamba, queremos ser una app web con la finalidad de solucionar el desabasto de empleos en Durango (México), sin la necesidad de tener un contrato que te ate.</p>
+
+    <p>Estamos empezando y ocupamos tu ayuda. Si deseas apoyarnos con una inversión o propuesta de trabajo, entra en la pestaña de ayuda. (En caualquier caso, se te enviara la informacion correspondiente a tu correo.)</p>
+
+    <a href="img/CapturaFIGMA.png" target="_blank">Visítanos Aquí</a>
+
+    <form id="formulario-ayuda" style="display: none;">
+        <h3>Formulario de Ayuda</h3>
+
+        <label>Nombre:</label><br>
+        <input type="text" id="nombre" placeholder="Tu nombre" required><br><br>
+
+        <label>Correo Electrónico:</label><br>
+        <input type="email" id="correo" placeholder="tu@correo.com" required><br><br>
+
+        <label>Tipo de Ayuda:</label><br>
+        <select id="tipo-ayuda">
+            <option value="inversion">Inversión</option>
+            <option value="propuesta">Propuesta de trabajo</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+
+        <button type="submit">Mandar</button>
+    </form>
+
+    <p id="mensaje-exito" style="display: none;">Gracias por tu aportación</p>
+
+    <footer>
+        <p>© 2026 FácilChamba - Todos los derechos reservados</p>
+        <p>Contáctanos: 618 163 7349 | jfvv48572@gmail.com</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
